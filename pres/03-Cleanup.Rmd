@@ -34,8 +34,6 @@ knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
 
 - Strive for quiet code
 
-- Ungroup your data
-
 ---
 class: small20
 
@@ -107,8 +105,6 @@ covr::report()
 - Explicit function imports
 
 - Strive for quiet code
-
-- Ungroup your data
 
 ---
 
@@ -276,5 +272,7 @@ Not always required
 
   * Export functions called directly by the scripts
   * Install your package
-  * Move remaining scripts to a different project that calls `library(yourpkg)`
+  * Move remaining scripts to a different project that calls `library(yourpkg)` 
+  * OR Create Rmd report that call `devtools::load_all()` or `library(yourpkg)`
   
+---
