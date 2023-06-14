@@ -274,8 +274,7 @@ here::here("hello", "world.png")
 
 ## Setup:  Create a package
 
--   We have portable code!
--   Let's move it to a package, or make our current project a package!
+-   Let's  make our current project a package!
 
 ```{r}
 usethis::create_package() # locally

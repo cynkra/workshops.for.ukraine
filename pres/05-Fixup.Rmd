@@ -441,7 +441,7 @@ class: small20
 ```{r}
 
 hello <- function(x) {
-  if(!is.character(x) | length(x) != 1) {
+  if(!is.character(x) || length(x) != 1) {
     stop("`x` should be a string")
   }
   paste0("Hello ", x, "!")
